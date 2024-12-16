@@ -1,0 +1,98 @@
+# Byte-compiled files
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment files
+.env
+*.env
+
+# Django specific
+db.sqlite3
+db.sqlite3-journal
+__pycache__/
+media/
+staticfiles/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# PyCharm specific
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Virtual environment
+school_env/
+venv/
+.env/
+venv.bak/
+.Python
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Compiled libraries
+*.jar
+*.war
+*.ear
+*.dll
+*.lib
+*.dylib
+
+# Cache and logs
+*.swp
+*.swo
+*.bak
+*.orig
+*.tmp
+*.sass-cache
+
+# Static files
+static/
+static_root/
+
+# Coverage reports
+.coverage
+htmlcov/
+.tox/
+
+# Node modules (if you use Node.js for frontend)
+node_modules/
+
+# Testing output
+*.coverage
+nosetests.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Packaging
+*.egg
+*.manifest
+*.spec
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pipenv
+Pipfile.lock
